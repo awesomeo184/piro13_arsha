@@ -12,12 +12,12 @@
         }
         @media (max-width: 575px)
         .why-us img {
-            min-height: 200px; width:50%;
+            min-height: 200px; min-width:610.4px;
         }
 
         @media (max-width: 992px)
         .why-us img {
-            min-height: 400px; width:100%;
+            min-height: 400px; min-width:888.8px;
         }
 
         #main #section_2 {
