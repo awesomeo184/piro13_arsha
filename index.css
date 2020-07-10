@@ -1,3 +1,107 @@
-header {
-    
+body {
+    font-family: sans-serif;
+}
+
+
+.header-1 {
+    position: sticky;
+    height: 80px;
+    top:0;
+    background-color: white;
+}
+.header-1__logo_img {
+    margin: 10px 0px;
+    padding: 8px 10px
+}
+.header-1__container {
+    display: flex;
+}
+.download_pannel {
+    display: flex;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+}
+.fixed_top .fixed_top__container{
+    display: flex;
+    position: sticky;
+    height: 80px;
+    width: 100vw;
+    height: 20vh;
+    background-color: #3D4D6A;
+    opacity: 0.8;
+    justify-content: space-around;
+    align-items: center;
+}
+.fixed_top a {
+    color: white;
+}
+.fixed_top__container .logo_title a {
+    font-size: 2rem;
+    text-decoration:none;
+}
+.fixed_top__list {
+    display: flex;
+    justify-content: space-around;
+}
+.fixed_top__list li a {
+    font-size: 15px;
+    text-decoration: none;
+    margin: 5px 10px;
+}
+.get_started button {
+    background-color: #3D4D6A;
+    border-radius: 15px;
+}
+.cta {
+    background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url(../img/cta-bg.jpg) fixed center center;
+    background-size: cover;
+    padding: 120px 0;
+}
+.col-lg-9{
+    position: relative;
+    flex: 0 0 75%;
+    max-width: 75%;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.cta h3 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: "Jost", sans-serif;
+    font-size: 1.75rem;
+    padding: 0px 0px 8px;
+}
+.cta p {
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    margin: 0px 0px 16px;
+}
+.cta .cta-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.cta .cta-btn {
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+}
+.cta .cta-btn:hover {
+    background: #47b2e4;
+    border: 2px solid #47b2e4;
+}
+.align-middle {
+    vertical-align: middle!important;
 }
